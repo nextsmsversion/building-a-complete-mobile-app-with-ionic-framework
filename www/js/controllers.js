@@ -79,7 +79,7 @@ angular.module('jsconfuy.controllers', [])
       }
     });
 
-    var messageToShare = event.title + " by " + speakersText + " at #JSConfUY";
+    var messageToShare = event.title + " with " + speakersText + " at #JSConfUY";
     window.plugins.socialsharing.share(messageToShare);
   };
 
